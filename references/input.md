@@ -1,19 +1,6 @@
----
-name: XenoAtom.Terminal.UI — Input & Commands
-description: Keyboard/mouse input, focus, routed events, commands, key hints (CommandBar), and CLI integration for XenoAtom.Terminal.UI.
----
+# Input & Commands
 
-## When to use
-
-Use this skill when the user needs help with:
-- Handling keyboard or mouse events in custom controls
-- Routed events (Direct / Preview / Bubble strategies)
-- Focus management, tab navigation, focus scopes
-- Creating and registering commands with keyboard shortcuts
-- CommandBar, CommandPalette, MenuBar, context menus
-- XenoAtom.CommandLine integration for rich CLI help output
-
-## Instructions
+Keyboard/mouse input, focus, routed events, commands, key hints (CommandBar), and CLI integration for XenoAtom.Terminal.UI.
 
 ### Input pipeline
 

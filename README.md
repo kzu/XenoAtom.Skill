@@ -1,6 +1,6 @@
 # XenoAtom.Skill
 
-A [Copilot CLI skill collection](https://github.com/phlx0/copilot-skills) for [XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI) — a .NET 10 retained-mode terminal UI framework.
+A [Copilot CLI skill](https://agentskills.io) for [XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI) — a .NET 10 retained-mode terminal UI framework.
 
 ## Installation
 
@@ -8,18 +8,17 @@ A [Copilot CLI skill collection](https://github.com/phlx0/copilot-skills) for [X
 npx skills add kzu/XenoAtom.Skill
 ```
 
-## Skills
+## Skill
 
-This collection is organized for progressive disclosure — start with the overview skill and add topic-specific skills as needed.
+**xenoatom-terminal-ui** — getting started, hosting modes (Write/Live/Run), async patterns, prompts, and ecosystem overview. Detailed reference files are loaded on demand:
 
-| Skill | Description |
-|-------|-------------|
-| **xenoatom-terminal-ui** | Getting started, hosting modes (Write/Live/Run), async patterns, prompts, and ecosystem overview |
-| **xenoatom-terminal-ui-layout** | Visual tree, `State<T>`, binding, `ComputedVisual`, `ContentSwitcher`, data templating, layout protocol, custom controls |
-| **xenoatom-terminal-ui-styling** | Themes, per-control styles, dynamic styles, brushes/gradients, colors/RGBA, markup syntax, ANSI/VT, Nerd Font glyphs, `ControlTone` |
-| **xenoatom-terminal-ui-input** | Input pipeline, routed events (Direct/Preview/Bubble), custom event handling, focus, commands, `CommandBar`, context menus, `XenoAtom.CommandLine` integration |
-| **xenoatom-terminal-ui-text-editing** | `TextBox`, `TextArea`, `CodeEditor`, `PromptEditor`, `MaskedInput`, `NumberBox`, clipboard, undo/redo, Find/Replace, Go To Line |
-| **xenoatom-terminal-ui-controls** | Complete controls reference: buttons, lists, layout containers, data display, overlays, navigation chrome, charts |
+| Reference | Description |
+|-----------|-------------|
+| `references/controls.md` | Complete controls reference: buttons, lists, layout containers, data display, overlays, navigation chrome, charts |
+| `references/layout.md` | Visual tree, `State<T>`, binding, `ComputedVisual`, `ContentSwitcher`, data templating, layout protocol, custom controls |
+| `references/styling.md` | Themes, per-control styles, dynamic styles, brushes/gradients, colors/RGBA, markup syntax, ANSI/VT, Nerd Font glyphs, `ControlTone` |
+| `references/input.md` | Input pipeline, routed events (Direct/Preview/Bubble), custom event handling, focus, commands, `CommandBar`, context menus, `XenoAtom.CommandLine` integration |
+| `references/text-editing.md` | `TextBox`, `TextArea`, `CodeEditor`, `PromptEditor`, `MaskedInput`, `NumberBox`, clipboard, undo/redo, Find/Replace, Go To Line |
 
 ## About XenoAtom.Terminal.UI
 

@@ -1,21 +1,6 @@
----
-name: XenoAtom.Terminal.UI — Text Editing
-description: TextBox, TextArea, CodeEditor, PromptEditor, MaskedInput, NumberBox, and the shared text editing subsystem (selection, undo/redo, find/replace, scrolling) in XenoAtom.Terminal.UI.
----
+# Text Editing
 
-## When to use
-
-Use this skill when the user needs help with:
-- Single-line text input (`TextBox`, `MaskedInput`, `NumberBox`)
-- Multi-line text editing (`TextArea`, `CodeEditor`)
-- Prompt-style editor with command hints (`PromptEditor`)
-- Text selection, copy/cut/paste, clipboard paste interception
-- Undo/redo in text editors
-- Find/Replace and Go To Line popups
-- Scroll integration for text editors
-- Implementing syntax highlighting in `CodeEditor`
-
-## Instructions
+TextBox, TextArea, CodeEditor, PromptEditor, MaskedInput, NumberBox, and the shared text editing subsystem (selection, undo/redo, find/replace, scrolling) in XenoAtom.Terminal.UI.
 
 ### Controls sharing the text editing engine
 

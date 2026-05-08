@@ -1,20 +1,6 @@
----
-name: XenoAtom.Terminal.UI — Controls Reference
-description: Complete reference for all built-in controls in XenoAtom.Terminal.UI — buttons, text input, lists, layout containers, data display, overlays, navigation chrome, and charts.
----
+# Controls Reference
 
-## When to use
-
-Use this skill when the user needs to use or configure specific controls in XenoAtom.Terminal.UI, including:
-- Text input controls (TextBox, TextArea, CodeEditor, MaskedInput, NumberBox, ColorPicker)
-- Buttons and toggles (Button, CheckBox, RadioButton, Switch)
-- List and selection controls (ListBox, Select, SelectionList, OptionList, TreeView)
-- Layout containers (VStack, HStack, Grid, DockLayout, WrapStack, Border, Group, Splitter, ScrollViewer)
-- Data display (Table, DataGridControl, TextBlock, Markup, ProgressBar, Spinner, charts)
-- Overlays (Dialog, Popup, Backdrop, Tooltip, Toast)
-- Navigation chrome (TabControl, MenuBar, CommandBar, Header, Footer, StatusBar)
-
-## Instructions
+Complete reference for all built-in controls in XenoAtom.Terminal.UI — buttons, text input, lists, layout containers, data display, overlays, navigation chrome, and charts.
 
 ### Text Input Controls
 

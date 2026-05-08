@@ -1,21 +1,6 @@
----
-name: XenoAtom.Terminal.UI — Styling & Markup
-description: Themes, styles, brushes, gradients, color schemes, markup syntax, and ANSI/VT primitives in XenoAtom.Terminal.UI.
----
+# Styling & Markup
 
-## When to use
-
-Use this skill when the user needs help with:
-- Applying and customizing themes (`Theme.Default`, `Theme.Terminal`, custom color schemes)
-- Per-control styles (`ButtonStyle`, `TextBoxStyle`, `BorderStyle`, etc.)
-- Dynamic/computed styles driven by state
-- Linear gradient brushes on text controls
-- Color creation (RGB, RGBA, basic-16, alpha blending)
-- Markup syntax (`[bold red]...[/]`) for terminal output and `Markup` control
-- ANSI/VT primitives via `XenoAtom.Ansi`
-- Glyphs and `Rune` values for custom control rendering
-
-## Instructions
+Themes, styles, brushes, gradients, color schemes, markup syntax, and ANSI/VT primitives in XenoAtom.Terminal.UI.
 
 ### Themes
 

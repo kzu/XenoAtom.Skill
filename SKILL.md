@@ -1,6 +1,6 @@
 ---
-name: XenoAtom.Terminal.UI
-description: Build .NET terminal UI apps with XenoAtom.Terminal.UI — a retained-mode TUI framework with fullscreen and inline hosting, data binding, controls, layout, and styling.
+name: xenoatom-terminal-ui
+description: Build .NET terminal UI apps with XenoAtom.Terminal.UI — a retained-mode TUI framework with fullscreen and inline hosting, data binding, controls, layout, styling, input handling, and text editing. Use for any XenoAtom.Terminal.UI question.
 ---
 
 ## When to use
@@ -194,11 +194,11 @@ Common `Visual` fluent methods:
 - `.Margin(Thickness)`, `.Padding(n)` (on controls that have padding)
 - `.IsVisible(bool)`, `.IsEnabled(bool)`, `.AutoFocus(bool)`
 
-### Related skills
+### Reference files
 
-For deeper feature areas, use the companion skills:
-- **xenoatom-terminal-ui-layout** — visual tree, layout protocol, binding, data templating
-- **xenoatom-terminal-ui-controls** — all controls reference (Button, TextBox, DataGrid, TabControl, etc.)
-- **xenoatom-terminal-ui-styling** — themes, styles, markup syntax, ANSI, brushes/gradients
-- **xenoatom-terminal-ui-input** — keyboard/mouse input, focus, routed events, commands
-- **xenoatom-terminal-ui-text-editing** — TextBox/TextArea/CodeEditor/PromptEditor, undo/redo
+For deeper feature areas, load the relevant reference on demand:
+- [Controls reference](references/controls.md) — Button, TextBox, DataGrid, TabControl, and all built-in controls
+- [Input & Commands](references/input.md) — keyboard/mouse events, focus, routed events, commands
+- [Layout & Binding](references/layout.md) — visual tree, State<T>, ComputedVisual, data templating
+- [Styling & Markup](references/styling.md) — themes, styles, brushes, gradients, markup syntax, ANSI
+- [Text Editing](references/text-editing.md) — TextBox/TextArea/CodeEditor/PromptEditor, undo/redo, find/replace

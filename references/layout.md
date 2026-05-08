@@ -1,21 +1,6 @@
----
-name: XenoAtom.Terminal.UI — Layout & Binding
-description: Visual tree, layout protocol, State<T> binding, ComputedVisual, data templating, and culture-aware formatting in XenoAtom.Terminal.UI.
----
+# Layout & Binding
 
-## When to use
-
-Use this skill when the user needs help with:
-- `State<T>` and bindable models (`[Bindable]` source generator)
-- Connecting bindings between controls (`.Text(state)`, `.IsVisible(state)`)
-- `ComputedVisual` for conditional/dynamic subtrees
-- `ContentSwitcher` for toggling between pre-built visuals
-- `DataTemplate`, `DataPresenter`, item templates
-- Layout protocol (measure/arrange, `SizeHints`, alignment, margin)
-- Writing custom `Visual` or container controls
-- Culture-aware value formatting
-
-## Instructions
+Visual tree, layout protocol, State<T> binding, ComputedVisual, data templating, and culture-aware formatting in XenoAtom.Terminal.UI.
 
 ### Visual Tree
 
